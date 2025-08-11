@@ -88,7 +88,7 @@ export function Hero() {
               className="transform hover:scale-105 transition-all duration-300 hover:bg-blue-50 dark:hover:bg-blue-900/20"
               onClick={() => {
                 // You can replace this with actual resume download link
-                window.open('#', '_blank');
+                window.open('/Abhishek_Resume.pdf', '_blank');
               }}
             >
               <Download className="w-4 h-4 mr-2" />
