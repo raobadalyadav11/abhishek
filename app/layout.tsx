@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   description: 'A modern portfolio showcasing full-stack development expertise, innovative projects, and professional experience.',
   keywords: 'portfolio, full-stack developer, web development, React, Next.js, TypeScript',
   authors: [{ name: 'Developer Portfolio' }],
-  viewport: 'width=device-width, initial-scale=1',
 };
 
 export default function RootLayout({
