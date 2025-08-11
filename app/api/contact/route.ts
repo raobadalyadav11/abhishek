@@ -40,27 +40,15 @@ export async function POST(request: NextRequest) {
       .select()
 
     if (error) {
-      console.error('Supabase error:', error)
       throw error
     }
-
-    // Log successful submission (optional)
-    console.log('New contact form submission:', {
-      id: data?.[0]?.id,
-      name,
-      email,
-      subject: subject || 'No subject',
-      timestamp: new Date().toISOString()
-    })
 
     return NextResponse.json({ 
       message: 'Message sent successfully',
       id: data?.[0]?.id 
     })
 
-  } catch (error: any) {
-    console.error('Contact form error:', error)
-    
+  } catch (error: any) {    
     return NextResponse.json(
       { 
         message: error.message || 'Failed to send message. Please try again.',
