@@ -8,55 +8,55 @@ import { Badge } from '@/components/ui/badge';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with real-time inventory management, payment processing, and analytics dashboard.',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Redis'],
-    liveUrl: '#',
+    title: 'Sponza.in',
+    description: 'A responsive platform connecting influencers with businesses, designed and developed in collaboration with 5 team members. Features cross-device compatibility and intuitive user experience.',
+    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Figma'],
+    liveUrl: 'https://sponza.in',
     githubUrl: '#',
     featured: true
   },
   {
-    title: 'Task Management App',
-    description: 'Collaborative task management application with real-time updates, team collaboration features, and advanced filtering.',
+    title: 'PracharPrashar.in',
+    description: 'Frontend development and UI design for a platform that increased user interaction by 30%. Applied responsive design principles for optimal mobile and desktop experience.',
     image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-    liveUrl: '#',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+    liveUrl: 'https://pracharprashar.in',
     githubUrl: '#',
     featured: true
   },
   {
-    title: 'Weather Dashboard',
-    description: 'Interactive weather dashboard with location-based forecasts, historical data visualization, and weather alerts.',
-    image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Vue.js', 'D3.js', 'Express.js', 'Weather API'],
+    title: 'Library Management System',
+    description: 'A comprehensive web-based system for efficient book tracking and member management with CRUD functionality and advanced search features.',
+    image: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'SQL', 'Database Design'],
     liveUrl: '#',
     githubUrl: '#',
     featured: false
   },
   {
-    title: 'Social Media Analytics',
-    description: 'Analytics platform for social media management with sentiment analysis, engagement tracking, and automated reporting.',
-    image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Python', 'Django', 'Chart.js', 'TensorFlow'],
-    liveUrl: '#',
-    githubUrl: '#',
-    featured: false
-  },
-  {
-    title: 'AI Chat Assistant',
-    description: 'Intelligent chat assistant with natural language processing, contextual understanding, and integration capabilities.',
-    image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['React', 'FastAPI', 'OpenAI', 'WebSocket'],
-    liveUrl: '#',
-    githubUrl: '#',
-    featured: false
-  },
-  {
-    title: 'Portfolio CMS',
-    description: 'Content management system specifically designed for portfolio websites with drag-and-drop functionality.',
+    title: 'Portfolio Website',
+    description: 'Personal portfolio website showcasing projects, skills, and achievements with modern design and smooth animations.',
     image: 'https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Next.js', 'Prisma', 'tRPC', 'Tailwind CSS'],
+    technologies: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    title: 'UI/UX Design Projects',
+    description: 'Collection of wireframes and prototypes created in Figma for various web applications, focusing on user experience and interface design.',
+    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['Figma', 'UI/UX Design', 'Prototyping', 'Wireframing'],
+    liveUrl: '#',
+    githubUrl: '#',
+    featured: false
+  },
+  {
+    title: 'Responsive Web Components',
+    description: 'A collection of reusable web components built with modern CSS and JavaScript, optimized for cross-browser compatibility.',
+    image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Git'],
     liveUrl: '#',
     githubUrl: '#',
     featured: false

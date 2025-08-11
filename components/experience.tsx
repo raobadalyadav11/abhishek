@@ -6,43 +6,56 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const experiences = [
   {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Innovation Inc.',
-    location: 'San Francisco, CA',
+    title: 'Bachelor of Computer Applications (BCA)',
+    company: 'Vidya Vihar Institute of Technology',
+    location: 'Purnia, Bihar',
+    period: '2022 - 2025',
+    description: 'Currently pursuing BCA with focus on full-stack development, database management, and software engineering principles.',
+    achievements: [
+      'Maintaining CGPA of 8.46/10',
+      'Active in technical projects and competitions',
+      'Strong foundation in programming and web technologies'
+    ],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'SQL']
+  },
+  {
+    title: 'NSS Volunteer & Leader',
+    company: 'National Service Scheme',
+    location: 'Purnia, Bihar',
     period: '2022 - Present',
-    description: 'Led development of scalable web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.',
+    description: 'Led 150+ volunteers in organizing community service events and social initiatives, focusing on education and community development.',
     achievements: [
-      'Increased application performance by 40%',
-      'Led team of 5 developers',
-      'Implemented CI/CD pipelines'
+      'Led 150+ volunteers effectively',
+      'Organized 10+ community events',
+      'Increased participation by 60%'
     ],
-    technologies: ['React', 'Node.js', 'AWS', 'PostgreSQL']
+    technologies: ['Leadership', 'Event Management', 'Community Service', 'Team Building']
   },
   {
-    title: 'Full Stack Developer',
-    company: 'Digital Solutions Co.',
-    location: 'New York, NY',
-    period: '2020 - 2022',
-    description: 'Developed responsive web applications and RESTful APIs. Collaborated with design teams to implement pixel-perfect user interfaces.',
+    title: 'Hostel Incharge',
+    company: 'Vidya Vihar Institute of Technology',
+    location: 'Purnia, Bihar',
+    period: '2023 - Present',
+    description: 'Managed hostel operations for 100+ residents, ensuring smooth functioning and resolving student concerns with high satisfaction rates.',
     achievements: [
-      'Built 15+ production applications',
-      'Reduced bug reports by 35%',
-      'Improved user engagement by 50%'
+      'Managed operations for 100+ residents',
+      'Resolved 50+ issues efficiently',
+      'Achieved 90% satisfaction rate'
     ],
-    technologies: ['Vue.js', 'Express.js', 'MongoDB', 'Docker']
+    technologies: ['Management', 'Problem Solving', 'Communication', 'Administration']
   },
   {
-    title: 'Frontend Developer',
-    company: 'StartupXYZ',
-    location: 'Austin, TX',
-    period: '2019 - 2020',
-    description: 'Created modern, responsive user interfaces for SaaS platform. Optimized application performance and implemented accessibility standards.',
+    title: 'Finance Coordinator',
+    company: 'Student Council',
+    location: 'Purnia, Bihar',
+    period: '2023 - 2024',
+    description: 'Oversaw budget management and financial planning for student activities, implementing cost-effective strategies and transparent financial practices.',
     achievements: [
-      'Achieved 98% accessibility score',
-      'Optimized load times by 60%',
-      'Implemented design system'
+      'Managed INR 5 Lakh budget',
+      'Saved 20% through efficient allocation',
+      'Implemented transparent financial practices'
     ],
-    technologies: ['JavaScript', 'CSS3', 'React', 'Redux']
+    technologies: ['Budget Management', 'Financial Planning', 'Cost Optimization', 'Analytics']
   }
 ];
 
@@ -57,9 +70,9 @@ export function Experience() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Work Experience</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Education & Leadership</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            My professional journey and key accomplishments
+            My academic journey and leadership accomplishments
           </p>
         </motion.div>
 

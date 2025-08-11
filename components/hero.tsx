@@ -53,7 +53,7 @@ export function Hero() {
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight">
               <span className="block text-foreground mb-2">Hello, I'm</span>
               <span className="block bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent">
-                Full Stack Developer
+                Abhishek Kumar
               </span>
             </h1>
           </motion.div>
@@ -64,8 +64,8 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
           >
-            I craft exceptional digital experiences with modern technologies, 
-            turning complex problems into elegant solutions through code.
+            Final-year BCA student passionate about full-stack web development, UI/UX design, 
+            and creating user-friendly applications that make a real impact.
           </motion.p>
 
           <motion.div
@@ -74,11 +74,23 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+            <Button 
+              size="lg" 
+              className="bg-blue-600 hover:bg-blue-700 text-white transform hover:scale-105 transition-all duration-300"
+              onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Mail className="w-4 h-4 mr-2" />
               Get In Touch
             </Button>
-            <Button variant="outline" size="lg">
+            <Button 
+              variant="outline" 
+              size="lg"
+              className="transform hover:scale-105 transition-all duration-300 hover:bg-blue-50 dark:hover:bg-blue-900/20"
+              onClick={() => {
+                // You can replace this with actual resume download link
+                window.open('#', '_blank');
+              }}
+            >
               <Download className="w-4 h-4 mr-2" />
               Download Resume
             </Button>

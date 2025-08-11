@@ -13,6 +13,8 @@ const navItems = [
   { name: 'Experience', href: '#experience' },
   { name: 'Projects', href: '#projects' },
   { name: 'Skills', href: '#skills' },
+  { name: 'Testimonials', href: '#testimonials' },
+  { name: 'Blog', href: '#blog' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -54,7 +56,7 @@ export function Navigation() {
             animate={{ opacity: 1 }}
             className="text-xl font-bold bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent"
           >
-            Portfolio
+            Abhishek Kumar
           </motion.div>
 
           {/* Desktop Navigation */}

@@ -8,41 +8,41 @@ const skillCategories = [
   {
     title: 'Frontend Technologies',
     skills: [
-      { name: 'React / Next.js', level: 95, color: 'bg-blue-600' },
-      { name: 'TypeScript', level: 90, color: 'bg-blue-500' },
-      { name: 'Tailwind CSS', level: 88, color: 'bg-cyan-600' },
-      { name: 'Vue.js', level: 85, color: 'bg-green-600' }
+      { name: 'HTML / CSS', level: 90, color: 'bg-orange-600' },
+      { name: 'JavaScript', level: 85, color: 'bg-yellow-600' },
+      { name: 'React', level: 80, color: 'bg-blue-600' },
+      { name: 'Bootstrap', level: 88, color: 'bg-purple-600' }
     ]
   },
   {
     title: 'Backend & Database',
     skills: [
-      { name: 'Node.js / Express', level: 92, color: 'bg-green-600' },
-      { name: 'Python / Django', level: 88, color: 'bg-yellow-600' },
-      { name: 'PostgreSQL', level: 90, color: 'bg-blue-700' },
-      { name: 'MongoDB', level: 85, color: 'bg-green-700' }
+      { name: 'Node.js', level: 75, color: 'bg-green-600' },
+      { name: 'SQL', level: 85, color: 'bg-blue-700' },
+      { name: 'Basic C', level: 70, color: 'bg-gray-600' },
+      { name: 'Database Design', level: 80, color: 'bg-indigo-600' }
     ]
   },
   {
-    title: 'Tools & DevOps',
+    title: 'Tools & Design',
     skills: [
-      { name: 'Git / GitHub', level: 95, color: 'bg-gray-700' },
-      { name: 'Docker', level: 82, color: 'bg-blue-600' },
-      { name: 'AWS / Vercel', level: 78, color: 'bg-orange-600' },
-      { name: 'CI/CD', level: 80, color: 'bg-purple-600' }
+      { name: 'Git / GitHub', level: 85, color: 'bg-gray-700' },
+      { name: 'VS Code', level: 90, color: 'bg-blue-600' },
+      { name: 'Figma', level: 82, color: 'bg-pink-600' },
+      { name: 'Debugging', level: 78, color: 'bg-red-600' }
     ]
   }
 ];
 
 const softSkills = [
-  'Problem Solving',
-  'Team Leadership',
   'Communication',
+  'Teamwork',
+  'Problem-Solving',
+  'Leadership',
+  'Adaptability',
+  'UI/UX Design',
   'Project Management',
-  'Agile/Scrum',
-  'Code Review',
-  'Mentoring',
-  'UI/UX Design'
+  'Mentoring'
 ];
 
 export function Skills() {

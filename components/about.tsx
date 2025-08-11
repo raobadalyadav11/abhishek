@@ -40,7 +40,7 @@ export function About() {
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            I'm passionate about creating digital solutions that make a difference
+            Final-year BCA student with a passion for technology and innovation
           </p>
         </motion.div>
 
@@ -53,20 +53,20 @@ export function About() {
           >
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                With over 5 years of experience in full-stack development, I specialize in building 
-                modern web applications using cutting-edge technologies. My journey began with a 
-                curiosity for problem-solving, which evolved into a passion for creating elegant 
-                digital solutions.
+                I'm a final-year BCA student at Vidya Vihar Institute of Technology with a CGPA of 8.46/10. 
+                My journey in technology began with curiosity about problem-solving and has evolved into 
+                a passion for creating impactful digital solutions that enhance user experiences.
               </p>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I believe in the power of clean, efficient code and user-centered design. Whether 
-                it's developing scalable backend systems or crafting intuitive frontend experiences, 
-                I approach each project with attention to detail and commitment to excellence.
+                I specialize in full-stack web development, UI/UX design, and database management. 
+                Through various projects and leadership roles, I've developed strong skills in 
+                communication, teamwork, and project management while maintaining a focus on 
+                clean, efficient code and user-centered design.
               </p>
 
               <div className="flex flex-wrap gap-3 pt-4">
-                {['React', 'Next.js', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL'].map((tech) => (
+                {['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Bootstrap', 'SQL', 'Git', 'Figma'].map((tech) => (
                   <span 
                     key={tech}
                     className="px-3 py-1 text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full"
