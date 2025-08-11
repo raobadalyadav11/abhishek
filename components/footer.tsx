@@ -17,9 +17,9 @@ export function Footer() {
           className="text-center"
         >
           <p className="text-muted-foreground flex items-center justify-center">
-            © {currentYear} Portfolio. Made with
+            © {currentYear} Portfolio. Made By
             <Heart className="w-4 h-4 mx-1 text-red-500 fill-current" />
-            using Next.js and Supabase
+            Abhishek Rajput
           </p>
         </motion.div>
       </div>

@@ -13,25 +13,25 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'hello@portfolio.com',
-    href: 'mailto:hello@portfolio.com'
+    value: 'abhishekbnk2105@gmail.com',
+    href: 'mailto:abhishekbnk2105@gmail.com'
   },
   {
     icon: Phone,
     title: 'Phone',
-    value: '+1 (555) 123-4567',
-    href: 'tel:+15551234567'
+    value: '+91-8809712943',
+    href: 'tel:+918809712943'
   },
   {
     icon: MapPin,
     title: 'Location',
-    value: 'San Francisco, CA',
+    value: 'Purnia, Bihar',
     href: '#'
   }
 ];
 
 const socialLinks = [
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
+  { icon: Linkedin, href: 'https://linkedin.com/in/rathore-abhi07', label: 'LinkedIn' },
   { icon: Github, href: 'https://github.com', label: 'GitHub' },
   { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' }
 ];
@@ -50,19 +50,22 @@ export function Contact() {
     e.preventDefault();
     setIsLoading(true);
 
-    // Simulate form submission
     try {
-      // Here you would integrate with Supabase to store the contact form data
-      // Example: await supabase.from('contacts').insert([formData])
-      
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
-      
-      toast({
-        title: "Message sent successfully!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
       });
-      
-      setFormData({ name: '', email: '', subject: '', message: '' });
+
+      if (res.ok) {
+        toast({
+          title: "Message sent successfully!",
+          description: "Thank you for reaching out. I'll get back to you soon.",
+        });
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        throw new Error('Failed to send message');
+      }
     } catch (error) {
       toast({
         title: "Error sending message",
